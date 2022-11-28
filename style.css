@@ -1,0 +1,82 @@
+html {
+   font-family: 'Cookie', cursive;
+}
+h1 {
+   font-size: 60px;
+   text-align: center;
+}
+p {
+   font-size: 40px;
+   text-align: center;
+}
+.navbar {
+   display: inline-flex;
+}
+.navbar ul li a {
+        display:inline-flex;
+         height: 40px;
+         width: 422px;
+     
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+}
+  
+  li a {
+    display: block;
+    justify-content: center;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .welcome {
+    display: inline-flex;
+    justify-content: center;
+  }
+ 
+ .royal-family {
+    display: flex;
+    justify-content: space-around;
+ }
+ .t1 {
+    border-collapse: collapse;
+    width: 700px;
+    
+ }
+ th, td {
+    border: 2px solid black;
+    padding: 10px;
+ }
+ 
+ textarea {
+    width: 500px;
+    height: 150px;
+ }
+ .label {
+    font-size: 15pt;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ form button {
+    width: 150px;
+    font-family: 'Cookie', cursive;
+    font-size: 30px;
+    font-weight: 600;
+    background: rgb(173, 171, 171);
+    margin-left: 180px;
+    padding: 10px;
+   
+    }
+input {
+    width: 500px;
+    height: 30px;
+}
